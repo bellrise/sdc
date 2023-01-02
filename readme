@@ -1,0 +1,6 @@
+sdc
+===
+
+Simple Data Container for storing trival data in binary format. Designed to
+be easily parsable, it can be quickly implemented on any platform and language.
+Can be stored as a file or sent over some network protocol.
