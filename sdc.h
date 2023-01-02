@@ -56,7 +56,7 @@ struct sdc_entry
 
 struct sdc_array
 {
-	sdc_u16 e_elems;        /* number of elements in array */
+	sdc_u16 a_entries;      /* number of entires in array */
 };
 
 
