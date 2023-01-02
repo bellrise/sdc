@@ -20,10 +20,15 @@ typedef uint16_t sdc_u16;
 #endif
 
 
+#define SDC_MAXNAME     64      /* max entry name size */
+#define SDC_MAXLONGNAME 512     /* max entry long name size */
+
+
 #define SDC_ENAMED      0x01    /* named entry */
+#define SDC_ELONGNAME   0x02    /* name is up to 512 bytes long */
 
 
-#define SCD_NULL        0       /* no type */
+#define SDC_NULL        0       /* no type */
 #define SDC_INT         1       /* 32 bit signed integer */
 #define SDC_LONG        2       /* 64 bit signed integer */
 #define SDC_UINT        3       /* 32 bit unsigned integer */
