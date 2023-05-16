@@ -31,6 +31,7 @@ typedef uint16_t sdc_u16;
 #define SDC_BOOL   5 /* boolean value */
 #define SDC_STRING 6 /* string */
 #define SDC_ARRAY  7 /* array */
+#define SDC_BYTES  8 /* raw bytes */
 
 struct sdc_header
 {
